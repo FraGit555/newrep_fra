@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Cat-as-print screen') { 
             steps {
-               sh " cat newrep_fra/text3"
+               sh " cat text3"
                sh "pwd"
                
             }
